@@ -1,0 +1,168 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="pipelinedcpu_func_synth.wdb" id="1">
+         <top_modules>
+            <top_module name="glbl" />
+            <top_module name="pipelinedcpu" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <zoom_setting>
+      <ZoomStartTime time="0fs"></ZoomStartTime>
+      <ZoomEndTime time="651001fs"></ZoomEndTime>
+      <Cursor1Time time="0fs"></Cursor1Time>
+   </zoom_setting>
+   <column_width_setting>
+      <NameColumnWidth column_width="276"></NameColumnWidth>
+      <ValueColumnWidth column_width="120"></ValueColumnWidth>
+   </column_width_setting>
+   <WVObjectSize size="36" />
+   <wvobject fp_name="/pipelinedcpu/clrn" type="logic">
+      <obj_property name="ElementShortName">clrn</obj_property>
+      <obj_property name="ObjectShortName">clrn</obj_property>
+   </wvobject>
+   <wvobject fp_name="/pipelinedcpu/clk" type="logic">
+      <obj_property name="ElementShortName">clk</obj_property>
+      <obj_property name="ObjectShortName">clk</obj_property>
+   </wvobject>
+   <wvobject fp_name="/pipelinedcpu/pc" type="array">
+      <obj_property name="ElementShortName">pc[31:0]</obj_property>
+      <obj_property name="ObjectShortName">pc[31:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/pipelinedcpu/inst" type="array">
+      <obj_property name="ElementShortName">inst[31:0]</obj_property>
+      <obj_property name="ObjectShortName">inst[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/pipelinedcpu/ealu" type="array">
+      <obj_property name="ElementShortName">ealu[31:0]</obj_property>
+      <obj_property name="ObjectShortName">ealu[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/pipelinedcpu/malu" type="array">
+      <obj_property name="ElementShortName">malu[31:0]</obj_property>
+      <obj_property name="ObjectShortName">malu[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/pipelinedcpu/wdi" type="array">
+      <obj_property name="ElementShortName">wdi[31:0]</obj_property>
+      <obj_property name="ObjectShortName">wdi[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/pipelinedcpu/pc4" type="array">
+      <obj_property name="ElementShortName">pc4[31:2]</obj_property>
+      <obj_property name="ObjectShortName">pc4[31:2]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/pipelinedcpu/ins" type="array">
+      <obj_property name="ElementShortName">ins[31:0]</obj_property>
+      <obj_property name="ObjectShortName">ins[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/pipelinedcpu/npc" type="array">
+      <obj_property name="ElementShortName">npc[31:0]</obj_property>
+      <obj_property name="ObjectShortName">npc[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/pipelinedcpu/dpc4" type="array">
+      <obj_property name="ElementShortName">dpc4[31:0]</obj_property>
+      <obj_property name="ObjectShortName">dpc4[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/pipelinedcpu/da" type="array">
+      <obj_property name="ElementShortName">da[31:0]</obj_property>
+      <obj_property name="ObjectShortName">da[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/pipelinedcpu/dimm" type="array">
+      <obj_property name="ElementShortName">dimm[31:31]</obj_property>
+      <obj_property name="ObjectShortName">dimm[31:31]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/pipelinedcpu/drn" type="array">
+      <obj_property name="ElementShortName">drn[3:0]</obj_property>
+      <obj_property name="ObjectShortName">drn[3:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/pipelinedcpu/daluc" type="array">
+      <obj_property name="ElementShortName">daluc[3:0]</obj_property>
+      <obj_property name="ObjectShortName">daluc[3:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/pipelinedcpu/wpcir" type="logic">
+      <obj_property name="ElementShortName">wpcir</obj_property>
+      <obj_property name="ObjectShortName">wpcir</obj_property>
+   </wvobject>
+   <wvobject fp_name="/pipelinedcpu/dwreg" type="logic">
+      <obj_property name="ElementShortName">dwreg</obj_property>
+      <obj_property name="ObjectShortName">dwreg</obj_property>
+   </wvobject>
+   <wvobject fp_name="/pipelinedcpu/dm2reg" type="logic">
+      <obj_property name="ElementShortName">dm2reg</obj_property>
+      <obj_property name="ObjectShortName">dm2reg</obj_property>
+   </wvobject>
+   <wvobject fp_name="/pipelinedcpu/dwmem" type="logic">
+      <obj_property name="ElementShortName">dwmem</obj_property>
+      <obj_property name="ObjectShortName">dwmem</obj_property>
+   </wvobject>
+   <wvobject fp_name="/pipelinedcpu/daluimm" type="logic">
+      <obj_property name="ElementShortName">daluimm</obj_property>
+      <obj_property name="ObjectShortName">daluimm</obj_property>
+   </wvobject>
+   <wvobject fp_name="/pipelinedcpu/dshift" type="logic">
+      <obj_property name="ElementShortName">dshift</obj_property>
+      <obj_property name="ObjectShortName">dshift</obj_property>
+   </wvobject>
+   <wvobject fp_name="/pipelinedcpu/djal" type="logic">
+      <obj_property name="ElementShortName">djal</obj_property>
+      <obj_property name="ObjectShortName">djal</obj_property>
+   </wvobject>
+   <wvobject fp_name="/pipelinedcpu/eb" type="array">
+      <obj_property name="ElementShortName">eb[31:0]</obj_property>
+      <obj_property name="ObjectShortName">eb[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/pipelinedcpu/ern" type="array">
+      <obj_property name="ElementShortName">ern[4:0]</obj_property>
+      <obj_property name="ObjectShortName">ern[4:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/pipelinedcpu/ewreg" type="logic">
+      <obj_property name="ElementShortName">ewreg</obj_property>
+      <obj_property name="ObjectShortName">ewreg</obj_property>
+   </wvobject>
+   <wvobject fp_name="/pipelinedcpu/em2reg" type="logic">
+      <obj_property name="ElementShortName">em2reg</obj_property>
+      <obj_property name="ObjectShortName">em2reg</obj_property>
+   </wvobject>
+   <wvobject fp_name="/pipelinedcpu/ewmem" type="logic">
+      <obj_property name="ElementShortName">ewmem</obj_property>
+      <obj_property name="ObjectShortName">ewmem</obj_property>
+   </wvobject>
+   <wvobject fp_name="/pipelinedcpu/mb" type="array">
+      <obj_property name="ElementShortName">mb[31:0]</obj_property>
+      <obj_property name="ObjectShortName">mb[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/pipelinedcpu/mmo" type="array">
+      <obj_property name="ElementShortName">mmo[31:0]</obj_property>
+      <obj_property name="ObjectShortName">mmo[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/pipelinedcpu/mrn" type="array">
+      <obj_property name="ElementShortName">mrn[4:0]</obj_property>
+      <obj_property name="ObjectShortName">mrn[4:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/pipelinedcpu/mwreg" type="logic">
+      <obj_property name="ElementShortName">mwreg</obj_property>
+      <obj_property name="ObjectShortName">mwreg</obj_property>
+   </wvobject>
+   <wvobject fp_name="/pipelinedcpu/mm2reg" type="logic">
+      <obj_property name="ElementShortName">mm2reg</obj_property>
+      <obj_property name="ObjectShortName">mm2reg</obj_property>
+   </wvobject>
+   <wvobject fp_name="/pipelinedcpu/mwmem" type="logic">
+      <obj_property name="ElementShortName">mwmem</obj_property>
+      <obj_property name="ObjectShortName">mwmem</obj_property>
+   </wvobject>
+   <wvobject fp_name="/pipelinedcpu/wmo" type="array">
+      <obj_property name="ElementShortName">wmo[31:0]</obj_property>
+      <obj_property name="ObjectShortName">wmo[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/pipelinedcpu/walu" type="array">
+      <obj_property name="ElementShortName">walu[31:0]</obj_property>
+      <obj_property name="ObjectShortName">walu[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/pipelinedcpu/wm2reg" type="logic">
+      <obj_property name="ElementShortName">wm2reg</obj_property>
+      <obj_property name="ObjectShortName">wm2reg</obj_property>
+   </wvobject>
+</wave_config>

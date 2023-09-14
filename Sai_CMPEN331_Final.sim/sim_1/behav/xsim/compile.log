@@ -1,0 +1,54 @@
+INFO: [VRFC 10-2263] Analyzing Verilog file "W:/Sai_CMPEN331_Final/addsub32.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module addsub32
+INFO: [VRFC 10-2263] Analyzing Verilog file "W:/Sai_CMPEN331_Final/alu.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module alu
+INFO: [VRFC 10-2263] Analyzing Verilog file "W:/Sai_CMPEN331_Final/cla32.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module cla32
+INFO: [VRFC 10-2263] Analyzing Verilog file "W:/Sai_CMPEN331_Final/cla_32.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module add
+INFO: [VRFC 10-311] analyzing module gp
+INFO: [VRFC 10-311] analyzing module cla_2
+INFO: [VRFC 10-311] analyzing module cla_4
+INFO: [VRFC 10-311] analyzing module cla_8
+INFO: [VRFC 10-311] analyzing module cla_16
+INFO: [VRFC 10-311] analyzing module cla_32
+INFO: [VRFC 10-2263] Analyzing Verilog file "W:/Sai_CMPEN331_Final/data_memory.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module data_memory
+INFO: [VRFC 10-2263] Analyzing Verilog file "W:/Sai_CMPEN331_Final/dffe32.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module dffe32
+INFO: [VRFC 10-2263] Analyzing Verilog file "W:/Sai_CMPEN331_Final/instruction_memory.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module instruction_memory
+INFO: [VRFC 10-2263] Analyzing Verilog file "W:/Sai_CMPEN331_Final/mux2x32.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module mux2x32
+INFO: [VRFC 10-2263] Analyzing Verilog file "W:/Sai_CMPEN331_Final/mux2x5.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module mux2x5
+INFO: [VRFC 10-2263] Analyzing Verilog file "W:/Sai_CMPEN331_Final/mux4x32.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module mux4x32
+INFO: [VRFC 10-2263] Analyzing Verilog file "W:/Sai_CMPEN331_Final/pipedereg.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module pipedereg
+INFO: [VRFC 10-2263] Analyzing Verilog file "W:/Sai_CMPEN331_Final/pipeemreg.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module pipeemreg
+INFO: [VRFC 10-2263] Analyzing Verilog file "W:/Sai_CMPEN331_Final/pipeexe.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module pipeexe
+INFO: [VRFC 10-2263] Analyzing Verilog file "W:/Sai_CMPEN331_Final/pipeid.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module pipeid
+INFO: [VRFC 10-2263] Analyzing Verilog file "W:/Sai_CMPEN331_Final/pipeidcu.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module pipeidcu
+INFO: [VRFC 10-2263] Analyzing Verilog file "W:/Sai_CMPEN331_Final/pipeif.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module pipeif
+INFO: [VRFC 10-2263] Analyzing Verilog file "W:/Sai_CMPEN331_Final/pipeir.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module pipeir
+INFO: [VRFC 10-2263] Analyzing Verilog file "W:/Sai_CMPEN331_Final/pipemem.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module pipemem
+INFO: [VRFC 10-2263] Analyzing Verilog file "W:/Sai_CMPEN331_Final/pipemwreg.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module pipemwreg
+INFO: [VRFC 10-2263] Analyzing Verilog file "W:/Sai_CMPEN331_Final/pipepc.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module pipepc
+INFO: [VRFC 10-2263] Analyzing Verilog file "W:/Sai_CMPEN331_Final/pipewb.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module pipewb
+INFO: [VRFC 10-2263] Analyzing Verilog file "W:/Sai_CMPEN331_Final/regfile.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module regfile
+INFO: [VRFC 10-2263] Analyzing Verilog file "W:/Sai_CMPEN331_Final/shift.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module shift
+INFO: [VRFC 10-2263] Analyzing Verilog file "W:/Sai_CMPEN331_Final/pipelinedcpu.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module pipelinedcpu

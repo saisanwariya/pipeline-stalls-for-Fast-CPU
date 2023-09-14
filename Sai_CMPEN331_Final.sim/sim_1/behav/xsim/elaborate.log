@@ -1,0 +1,44 @@
+Vivado Simulator 2020.1
+Copyright 1986-1999, 2001-2020 Xilinx, Inc. All Rights Reserved.
+Running: C:/opt/Xilinx/Vivado/2020.1/bin/unwrapped/win64.o/xelab.exe -wto 6ddea6c9e99746f4bd5bcbcc46b4426a --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot pipelinedcpu_behav xil_defaultlib.pipelinedcpu xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Pass Through NonSizing Optimizer
+Completed static elaboration
+Starting simulation data flow analysis
+WARNING: [XSIM 43-4099] "W:/Sai_CMPEN331_Final/addsub32.v" Line 1. Module addsub32 doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "W:/Sai_CMPEN331_Final/addsub32.v" Line 1. Module addsub32 doesn't have a timescale but at least one module in design has a timescale.
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling module xil_defaultlib.dffe32
+Compiling module xil_defaultlib.pipepc
+Compiling module xil_defaultlib.mux4x32
+Compiling module xil_defaultlib.add
+Compiling module xil_defaultlib.gp
+Compiling module xil_defaultlib.cla_2
+Compiling module xil_defaultlib.cla_4
+Compiling module xil_defaultlib.cla_8
+Compiling module xil_defaultlib.cla_16
+Compiling module xil_defaultlib.cla_32
+Compiling module xil_defaultlib.cla32
+Compiling module xil_defaultlib.instruction_memory
+Compiling module xil_defaultlib.pipeif
+Compiling module xil_defaultlib.pipeir
+Compiling module xil_defaultlib.pipeidcu
+Compiling module xil_defaultlib.regfile
+Compiling module xil_defaultlib.mux2x5
+Compiling module xil_defaultlib.pipeid
+Compiling module xil_defaultlib.pipedereg
+Compiling module xil_defaultlib.mux2x32
+Compiling module xil_defaultlib.addsub32
+Compiling module xil_defaultlib.shift
+Compiling module xil_defaultlib.alu
+Compiling module xil_defaultlib.pipeexe
+Compiling module xil_defaultlib.pipeemreg
+Compiling module xil_defaultlib.data_memory
+Compiling module xil_defaultlib.pipemem
+Compiling module xil_defaultlib.pipemwreg
+Compiling module xil_defaultlib.pipewb
+Compiling module xil_defaultlib.pipelinedcpu
+Compiling module xil_defaultlib.glbl
+Built simulation snapshot pipelinedcpu_behav

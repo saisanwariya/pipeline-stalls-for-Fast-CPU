@@ -1,0 +1,24 @@
+module pipeexe (ealuc,ealuimm,ea,eb,eimm,eshift,ern0,epc4,ejal,ern,ealu);
+input [31:0] ea, eb;
+input [31:0] eimm;
+input [31:0] epc4;
+input [4:0] ern0; 
+input [3:0] ealuc; 
+input ealuimm; 
+input eshift; 
+input ejal; 
+output [31:0] ealu; 
+output [4:0] ern; 
+wire [31:0] alua; 
+wire [31:0] alub; 
+wire [31:0] ealu0;
+wire [31:0] epc8; 
+wire z; 
+wire [31:0] esa = {eimm[5:0],eimm[31:6]}; 
+cla32 ret_addr (epc4,32'h4,1'b0,epc8); 
+mux2x32 alu_in_a (ea,esa,eshift,alua); 
+mux2x32 alu_in_b (eb,eimm,ealuimm,alub);
+mux2x32 save_pc8 (ealu0,epc8,ejal,ealu);
+assign ern = ern0 | {5{ejal}}; 
+alu al_unit (alua,alub,ealuc,ealu0,z); 
+endmodule

@@ -1,0 +1,32 @@
+# compile verilog/system verilog design source files
+verilog xil_defaultlib  \
+"../../../../addsub32.v" \
+"../../../../alu.v" \
+"../../../../cla32.v" \
+"../../../../cla_32.v" \
+"../../../../data_memory.v" \
+"../../../../dffe32.v" \
+"../../../../instruction_memory.v" \
+"../../../../mux2x32.v" \
+"../../../../mux2x5.v" \
+"../../../../mux4x32.v" \
+"../../../../pipedereg.v" \
+"../../../../pipeemreg.v" \
+"../../../../pipeexe.v" \
+"../../../../pipeid.v" \
+"../../../../pipeidcu.v" \
+"../../../../pipeif.v" \
+"../../../../pipeir.v" \
+"../../../../pipemem.v" \
+"../../../../pipemwreg.v" \
+"../../../../pipepc.v" \
+"../../../../pipewb.v" \
+"../../../../regfile.v" \
+"../../../../shift.v" \
+"../../../../pipelinedcpu.v" \
+
+# compile glbl module
+verilog xil_defaultlib "glbl.v"
+
+# Do not sort compile order
+nosort

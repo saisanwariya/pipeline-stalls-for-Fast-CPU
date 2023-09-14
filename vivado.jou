@@ -1,0 +1,51 @@
+#-----------------------------------------------------------
+# Vivado v2020.1 (64-bit)
+# SW Build 2902540 on Wed May 27 19:54:49 MDT 2020
+# IP Build 2902112 on Wed May 27 22:43:36 MDT 2020
+# Start of session at: Tue Dec 15 17:00:07 2020
+# Process ID: 9960
+# Current directory: W:/Sai_CMPEN331_Final
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent10160 W:\Sai_CMPEN331_Final\Sai_CMPEN331_Final.xpr
+# Log file: W:/Sai_CMPEN331_Final/vivado.log
+# Journal file: W:/Sai_CMPEN331_Final\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project W:/Sai_CMPEN331_Final/Sai_CMPEN331_Final.xpr
+update_compile_order -fileset sources_1
+reset_run impl_1 -prev_step 
+launch_runs impl_1 -jobs 4
+wait_on_run impl_1
+for { set i 1 } { $i <= 51 } { incr i } {
+remove_net [get_nets dout[$i]]
+remove_port [get_ports dout[$i]]
+}for { set i 1 } { $i <= 51 } { incr i } {
+for { set i 1 } { $i <= 51 } { incr i } {
+remove_net [get_nets dout[$i]]
+remove_port [get_ports dout[$i]]
+}
+open_run synth_1 -name synth_1
+for { set i 1 } { $i <= 51 } { incr i } {
+remove_net [get_nets dout[$i]] -quiet -prune; # prune removes unconnected pins or ports
+}
+launch_simulation
+open_wave_config W:/Sai_CMPEN331_Final/pipelinedcpu_behav.wcfg
+source pipelinedcpu.tcl
+for { set i 1 } { $i <= 51 } { incr i } {
+remove_net [get_nets dout[$i]] -quiet -prune; # prune removes unconnected pins or ports
+}
+reset_run impl_1
+launch_runs impl_1 -jobs 4
+wait_on_run impl_1
+for { set i 1 } { $i <= 51 } { incr i } {
+remove_net [get_nets dout[$i]] -quiet -prune; # prune removes unconnected pins or ports
+}
+undo
+for { set i 1 } { $i <= 32 } { incr i } {
+remove_net [get_nets dout[$i]] -quiet -prune; # prune removes unconnected pins or ports
+}
+for { set i 1 } { $i <= 32 } { incr i } {
+remove_net [get_nets dout[$i]]
+remove_port [get_ports dout[$i]]
+}
+run 10 ns
+synth_design -rtl -name rtl_1

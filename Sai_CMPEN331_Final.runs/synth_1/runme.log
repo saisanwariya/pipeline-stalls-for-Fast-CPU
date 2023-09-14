@@ -1,0 +1,312 @@
+
+*** Running vivado
+    with args -log pipelinedcpu.vds -m64 -product Vivado -mode batch -messageDb vivado.pb -notrace -source pipelinedcpu.tcl
+
+
+
+****** Vivado v2020.1 (64-bit)
+  **** SW Build 2902540 on Wed May 27 19:54:49 MDT 2020
+  **** IP Build 2902112 on Wed May 27 22:43:36 MDT 2020
+    ** Copyright 1986-2020 Xilinx, Inc. All Rights Reserved.
+
+source pipelinedcpu.tcl -notrace
+Command: synth_design -top pipelinedcpu -part xc7z010clg400-1
+Starting synth_design
+Attempting to get a license for feature 'Synthesis' and/or device 'xc7z010'
+INFO: [Common 17-349] Got license for feature 'Synthesis' and/or device 'xc7z010'
+INFO: [Device 21-403] Loading part xc7z010clg400-1
+INFO: [Synth 8-7079] Multithreading enabled for synth_design using a maximum of 2 processes.
+INFO: [Synth 8-7078] Launching helper process for spawning children vivado processes
+INFO: [Synth 8-7075] Helper process launched with PID 18312
+---------------------------------------------------------------------------------
+Starting RTL Elaboration : Time (s): cpu = 00:00:04 ; elapsed = 00:00:05 . Memory (MB): peak = 1080.367 ; gain = 0.000
+---------------------------------------------------------------------------------
+INFO: [Synth 8-6157] synthesizing module 'pipelinedcpu' [W:/Sai_CMPEN331_Final/pipelinedcpu.v:1]
+INFO: [Synth 8-6157] synthesizing module 'pipepc' [W:/Sai_CMPEN331_Final/pipepc.v:1]
+INFO: [Synth 8-6157] synthesizing module 'dffe32' [W:/Sai_CMPEN331_Final/dffe32.v:1]
+INFO: [Synth 8-6155] done synthesizing module 'dffe32' (1#1) [W:/Sai_CMPEN331_Final/dffe32.v:1]
+INFO: [Synth 8-6155] done synthesizing module 'pipepc' (2#1) [W:/Sai_CMPEN331_Final/pipepc.v:1]
+INFO: [Synth 8-6157] synthesizing module 'pipeif' [W:/Sai_CMPEN331_Final/pipeif.v:1]
+INFO: [Synth 8-6157] synthesizing module 'mux4x32' [W:/Sai_CMPEN331_Final/mux4x32.v:1]
+INFO: [Synth 8-6155] done synthesizing module 'mux4x32' (3#1) [W:/Sai_CMPEN331_Final/mux4x32.v:1]
+INFO: [Synth 8-6157] synthesizing module 'cla32' [W:/Sai_CMPEN331_Final/cla32.v:1]
+INFO: [Synth 8-6157] synthesizing module 'cla_32' [W:/Sai_CMPEN331_Final/cla_32.v:89]
+INFO: [Synth 8-6157] synthesizing module 'cla_16' [W:/Sai_CMPEN331_Final/cla_32.v:76]
+INFO: [Synth 8-6157] synthesizing module 'cla_8' [W:/Sai_CMPEN331_Final/cla_32.v:64]
+INFO: [Synth 8-6157] synthesizing module 'cla_4' [W:/Sai_CMPEN331_Final/cla_32.v:52]
+INFO: [Synth 8-6157] synthesizing module 'cla_2' [W:/Sai_CMPEN331_Final/cla_32.v:40]
+INFO: [Synth 8-6157] synthesizing module 'add' [W:/Sai_CMPEN331_Final/cla_32.v:23]
+INFO: [Synth 8-6155] done synthesizing module 'add' (4#1) [W:/Sai_CMPEN331_Final/cla_32.v:23]
+INFO: [Synth 8-6157] synthesizing module 'gp' [W:/Sai_CMPEN331_Final/cla_32.v:31]
+INFO: [Synth 8-6155] done synthesizing module 'gp' (5#1) [W:/Sai_CMPEN331_Final/cla_32.v:31]
+INFO: [Synth 8-6155] done synthesizing module 'cla_2' (6#1) [W:/Sai_CMPEN331_Final/cla_32.v:40]
+INFO: [Synth 8-6155] done synthesizing module 'cla_4' (7#1) [W:/Sai_CMPEN331_Final/cla_32.v:52]
+INFO: [Synth 8-6155] done synthesizing module 'cla_8' (8#1) [W:/Sai_CMPEN331_Final/cla_32.v:64]
+INFO: [Synth 8-6155] done synthesizing module 'cla_16' (9#1) [W:/Sai_CMPEN331_Final/cla_32.v:76]
+INFO: [Synth 8-6155] done synthesizing module 'cla_32' (10#1) [W:/Sai_CMPEN331_Final/cla_32.v:89]
+INFO: [Synth 8-6155] done synthesizing module 'cla32' (11#1) [W:/Sai_CMPEN331_Final/cla32.v:1]
+INFO: [Synth 8-6157] synthesizing module 'instruction_memory' [W:/Sai_CMPEN331_Final/instruction_memory.v:1]
+INFO: [Synth 8-6155] done synthesizing module 'instruction_memory' (12#1) [W:/Sai_CMPEN331_Final/instruction_memory.v:1]
+INFO: [Synth 8-6155] done synthesizing module 'pipeif' (13#1) [W:/Sai_CMPEN331_Final/pipeif.v:1]
+INFO: [Synth 8-6157] synthesizing module 'pipeir' [W:/Sai_CMPEN331_Final/pipeir.v:1]
+INFO: [Synth 8-6155] done synthesizing module 'pipeir' (14#1) [W:/Sai_CMPEN331_Final/pipeir.v:1]
+INFO: [Synth 8-6157] synthesizing module 'pipeid' [W:/Sai_CMPEN331_Final/pipeid.v:1]
+INFO: [Synth 8-6157] synthesizing module 'pipeidcu' [W:/Sai_CMPEN331_Final/pipeidcu.v:1]
+INFO: [Synth 8-6155] done synthesizing module 'pipeidcu' (15#1) [W:/Sai_CMPEN331_Final/pipeidcu.v:1]
+INFO: [Synth 8-6157] synthesizing module 'regfile' [W:/Sai_CMPEN331_Final/regfile.v:1]
+INFO: [Synth 8-6155] done synthesizing module 'regfile' (16#1) [W:/Sai_CMPEN331_Final/regfile.v:1]
+INFO: [Synth 8-6157] synthesizing module 'mux2x5' [W:/Sai_CMPEN331_Final/mux2x5.v:1]
+INFO: [Synth 8-6155] done synthesizing module 'mux2x5' (17#1) [W:/Sai_CMPEN331_Final/mux2x5.v:1]
+INFO: [Synth 8-6155] done synthesizing module 'pipeid' (18#1) [W:/Sai_CMPEN331_Final/pipeid.v:1]
+INFO: [Synth 8-6157] synthesizing module 'pipedereg' [W:/Sai_CMPEN331_Final/pipedereg.v:1]
+INFO: [Synth 8-6155] done synthesizing module 'pipedereg' (19#1) [W:/Sai_CMPEN331_Final/pipedereg.v:1]
+INFO: [Synth 8-6157] synthesizing module 'pipeexe' [W:/Sai_CMPEN331_Final/pipeexe.v:1]
+INFO: [Synth 8-6157] synthesizing module 'mux2x32' [W:/Sai_CMPEN331_Final/mux2x32.v:1]
+INFO: [Synth 8-6155] done synthesizing module 'mux2x32' (20#1) [W:/Sai_CMPEN331_Final/mux2x32.v:1]
+INFO: [Synth 8-6157] synthesizing module 'alu' [W:/Sai_CMPEN331_Final/alu.v:23]
+INFO: [Synth 8-6157] synthesizing module 'addsub32' [W:/Sai_CMPEN331_Final/addsub32.v:1]
+INFO: [Synth 8-6155] done synthesizing module 'addsub32' (21#1) [W:/Sai_CMPEN331_Final/addsub32.v:1]
+INFO: [Synth 8-6157] synthesizing module 'shift' [W:/Sai_CMPEN331_Final/shift.v:23]
+INFO: [Synth 8-6155] done synthesizing module 'shift' (22#1) [W:/Sai_CMPEN331_Final/shift.v:23]
+INFO: [Synth 8-6155] done synthesizing module 'alu' (23#1) [W:/Sai_CMPEN331_Final/alu.v:23]
+INFO: [Synth 8-6155] done synthesizing module 'pipeexe' (24#1) [W:/Sai_CMPEN331_Final/pipeexe.v:1]
+INFO: [Synth 8-6157] synthesizing module 'pipeemreg' [W:/Sai_CMPEN331_Final/pipeemreg.v:1]
+INFO: [Synth 8-6155] done synthesizing module 'pipeemreg' (25#1) [W:/Sai_CMPEN331_Final/pipeemreg.v:1]
+INFO: [Synth 8-6157] synthesizing module 'pipemem' [W:/Sai_CMPEN331_Final/pipemem.v:1]
+INFO: [Synth 8-6157] synthesizing module 'data_memory' [W:/Sai_CMPEN331_Final/data_memory.v:1]
+INFO: [Synth 8-6155] done synthesizing module 'data_memory' (26#1) [W:/Sai_CMPEN331_Final/data_memory.v:1]
+INFO: [Synth 8-6155] done synthesizing module 'pipemem' (27#1) [W:/Sai_CMPEN331_Final/pipemem.v:1]
+INFO: [Synth 8-6157] synthesizing module 'pipemwreg' [W:/Sai_CMPEN331_Final/pipemwreg.v:1]
+INFO: [Synth 8-6155] done synthesizing module 'pipemwreg' (28#1) [W:/Sai_CMPEN331_Final/pipemwreg.v:1]
+INFO: [Synth 8-6157] synthesizing module 'pipewb' [W:/Sai_CMPEN331_Final/pipewb.v:1]
+INFO: [Synth 8-6155] done synthesizing module 'pipewb' (29#1) [W:/Sai_CMPEN331_Final/pipewb.v:1]
+INFO: [Synth 8-6155] done synthesizing module 'pipelinedcpu' (30#1) [W:/Sai_CMPEN331_Final/pipelinedcpu.v:1]
+---------------------------------------------------------------------------------
+Finished RTL Elaboration : Time (s): cpu = 00:00:05 ; elapsed = 00:00:09 . Memory (MB): peak = 1082.996 ; gain = 2.629
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:06 ; elapsed = 00:00:12 . Memory (MB): peak = 1082.996 ; gain = 2.629
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 1 : Time (s): cpu = 00:00:06 ; elapsed = 00:00:12 . Memory (MB): peak = 1082.996 ; gain = 2.629
+---------------------------------------------------------------------------------
+Netlist sorting complete. Time (s): cpu = 00:00:01 ; elapsed = 00:00:00.072 . Memory (MB): peak = 1082.996 ; gain = 0.000
+INFO: [Project 1-570] Preparing netlist for logic optimization
+
+Processing XDC Constraints
+Initializing timing engine
+Parsing XDC File [W:/Sai_CMPEN331_Final/CMPen331.xdc]
+Finished Parsing XDC File [W:/Sai_CMPEN331_Final/CMPen331.xdc]
+Completed Processing XDC Constraints
+
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.001 . Memory (MB): peak = 1205.773 ; gain = 0.000
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+Constraint Validation Runtime : Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.059 . Memory (MB): peak = 1205.773 ; gain = 0.000
+---------------------------------------------------------------------------------
+Finished Constraint Validation : Time (s): cpu = 00:00:12 ; elapsed = 00:00:21 . Memory (MB): peak = 1205.773 ; gain = 125.406
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Loading Part and Timing Information
+---------------------------------------------------------------------------------
+Loading part: xc7z010clg400-1
+---------------------------------------------------------------------------------
+Finished Loading Part and Timing Information : Time (s): cpu = 00:00:12 ; elapsed = 00:00:22 . Memory (MB): peak = 1205.773 ; gain = 125.406
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Applying 'set_property' XDC Constraints
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished applying 'set_property' XDC Constraints : Time (s): cpu = 00:00:12 ; elapsed = 00:00:22 . Memory (MB): peak = 1205.773 ; gain = 125.406
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 2 : Time (s): cpu = 00:00:13 ; elapsed = 00:00:26 . Memory (MB): peak = 1205.773 ; gain = 125.406
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start RTL Component Statistics 
+---------------------------------------------------------------------------------
+Detailed RTL Component Info : 
++---XORs : 
+	   2 Input     32 Bit         XORs := 3     
+	   3 Input      1 Bit         XORs := 128   
++---Registers : 
+	               32 Bit    Registers := 42    
+	                5 Bit    Registers := 3     
+	                4 Bit    Registers := 1     
+	                1 Bit    Registers := 11    
++---Muxes : 
+	   4 Input   32 Bit        Muxes := 4     
+	   2 Input   32 Bit        Muxes := 8     
+	   2 Input    5 Bit        Muxes := 1     
+	   2 Input    2 Bit        Muxes := 4     
+	   2 Input    1 Bit        Muxes := 31    
+---------------------------------------------------------------------------------
+Finished RTL Component Statistics 
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Part Resource Summary
+---------------------------------------------------------------------------------
+Part Resources:
+DSPs: 80 (col length:40)
+BRAMs: 120 (col length: RAMB18 40 RAMB36 20)
+---------------------------------------------------------------------------------
+Finished Part Resource Summary
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Cross Boundary and Area Optimization
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Cross Boundary and Area Optimization : Time (s): cpu = 00:00:31 ; elapsed = 00:00:47 . Memory (MB): peak = 1205.773 ; gain = 125.406
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start ROM, RAM, DSP and Shift Register Reporting
+---------------------------------------------------------------------------------
+
+Distributed RAM: Preliminary Mapping	Report (see note below)
++-------------+------------------------+-----------+----------------------+----------------+
+|Module Name  | RTL Object             | Inference | Size (Depth x Width) | Primitives     | 
++-------------+------------------------+-----------+----------------------+----------------+
+|pipelinedcpu | mem_stage/dmem/ram_reg | Implied   | 64 x 32              | RAM64X1S x 32	 | 
++-------------+------------------------+-----------+----------------------+----------------+
+
+Note: The table above is a preliminary report that shows the Distributed RAMs at the current stage of the synthesis flow. Some Distributed RAMs may be reimplemented as non Distributed RAM primitives later in the synthesis flow. Multiple instantiated RAMs are reported only once.
+---------------------------------------------------------------------------------
+Finished ROM, RAM, DSP and Shift Register Reporting
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Applying XDC Timing Constraints
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Applying XDC Timing Constraints : Time (s): cpu = 00:00:38 ; elapsed = 00:00:56 . Memory (MB): peak = 1205.773 ; gain = 125.406
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Timing Optimization
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Timing Optimization : Time (s): cpu = 00:00:40 ; elapsed = 00:00:57 . Memory (MB): peak = 1205.773 ; gain = 125.406
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start ROM, RAM, DSP and Shift Register Reporting
+---------------------------------------------------------------------------------
+
+Distributed RAM: Final Mapping	Report
++-------------+------------------------+-----------+----------------------+----------------+
+|Module Name  | RTL Object             | Inference | Size (Depth x Width) | Primitives     | 
++-------------+------------------------+-----------+----------------------+----------------+
+|pipelinedcpu | mem_stage/dmem/ram_reg | Implied   | 64 x 32              | RAM64X1S x 32	 | 
++-------------+------------------------+-----------+----------------------+----------------+
+
+---------------------------------------------------------------------------------
+Finished ROM, RAM, DSP and Shift Register Reporting
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Technology Mapping
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Technology Mapping : Time (s): cpu = 00:00:41 ; elapsed = 00:00:58 . Memory (MB): peak = 1252.957 ; gain = 172.590
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished IO Insertion : Time (s): cpu = 00:00:44 ; elapsed = 00:01:02 . Memory (MB): peak = 1259.332 ; gain = 178.965
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Instances
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Instances : Time (s): cpu = 00:00:44 ; elapsed = 00:01:02 . Memory (MB): peak = 1259.332 ; gain = 178.965
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Rebuilding User Hierarchy
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Rebuilding User Hierarchy : Time (s): cpu = 00:00:44 ; elapsed = 00:01:02 . Memory (MB): peak = 1259.332 ; gain = 178.965
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Ports
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Ports : Time (s): cpu = 00:00:45 ; elapsed = 00:01:02 . Memory (MB): peak = 1259.332 ; gain = 178.965
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:45 ; elapsed = 00:01:02 . Memory (MB): peak = 1259.332 ; gain = 178.965
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Nets
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Nets : Time (s): cpu = 00:00:45 ; elapsed = 00:01:02 . Memory (MB): peak = 1259.332 ; gain = 178.965
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Writing Synthesis Report
+---------------------------------------------------------------------------------
+
+Report BlackBoxes: 
++-+--------------+----------+
+| |BlackBox name |Instances |
++-+--------------+----------+
++-+--------------+----------+
+
+Report Cell Usage: 
++------+---------+------+
+|      |Cell     |Count |
++------+---------+------+
+|1     |BUFG     |     1|
+|2     |LUT1     |     3|
+|3     |LUT2     |    29|
+|4     |LUT3     |   135|
+|5     |LUT4     |   108|
+|6     |LUT5     |   284|
+|7     |LUT6     |   963|
+|8     |MUXF7    |   185|
+|9     |MUXF8    |    44|
+|10    |RAM64X1S |    32|
+|11    |FDCE     |  1359|
+|12    |IBUF     |     2|
+|13    |OBUF     |   160|
++------+---------+------+
+---------------------------------------------------------------------------------
+Finished Writing Synthesis Report : Time (s): cpu = 00:00:45 ; elapsed = 00:01:02 . Memory (MB): peak = 1259.332 ; gain = 178.965
+---------------------------------------------------------------------------------
+Synthesis finished with 0 errors, 0 critical warnings and 0 warnings.
+Synthesis Optimization Runtime : Time (s): cpu = 00:00:37 ; elapsed = 00:00:59 . Memory (MB): peak = 1259.332 ; gain = 56.188
+Synthesis Optimization Complete : Time (s): cpu = 00:00:45 ; elapsed = 00:01:02 . Memory (MB): peak = 1259.332 ; gain = 178.965
+INFO: [Project 1-571] Translating synthesized netlist
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.055 . Memory (MB): peak = 1271.508 ; gain = 0.000
+INFO: [Netlist 29-17] Analyzing 261 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
+INFO: [Project 1-570] Preparing netlist for logic optimization
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 1271.508 ; gain = 0.000
+INFO: [Project 1-111] Unisim Transformation Summary:
+  A total of 32 instances were transformed.
+  RAM64X1S => RAM64X1S (RAMS64E): 32 instances
+
+INFO: [Common 17-83] Releasing license: Synthesis
+74 Infos, 0 Warnings, 0 Critical Warnings and 0 Errors encountered.
+synth_design completed successfully
+synth_design: Time (s): cpu = 00:00:51 ; elapsed = 00:01:16 . Memory (MB): peak = 1271.508 ; gain = 191.141
+INFO: [Common 17-1381] The checkpoint 'W:/Sai_CMPEN331_Final/Sai_CMPEN331_Final.runs/synth_1/pipelinedcpu.dcp' has been generated.
+write_checkpoint: Time (s): cpu = 00:00:01 ; elapsed = 00:00:07 . Memory (MB): peak = 1271.508 ; gain = 0.000
+INFO: [runtcl-4] Executing : report_utilization -file pipelinedcpu_utilization_synth.rpt -pb pipelinedcpu_utilization_synth.pb
+INFO: [Common 17-206] Exiting Vivado at Wed Dec 16 10:16:58 2020...

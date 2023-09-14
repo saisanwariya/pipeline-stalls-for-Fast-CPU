@@ -1,0 +1,17 @@
+INFO: [VRFC 10-2263] Analyzing Verilog file "W:/Sai_CMPEN331_Final/Sai_CMPEN331_Final.sim/sim_1/synth/func/xsim/pipelinedcpu_func_synth.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module data_memory
+INFO: [VRFC 10-311] analyzing module dffe32
+INFO: [VRFC 10-311] analyzing module dffe32_0
+INFO: [VRFC 10-311] analyzing module dffe32_1
+INFO: [VRFC 10-311] analyzing module mux2x32
+INFO: [VRFC 10-311] analyzing module pipedereg
+INFO: [VRFC 10-311] analyzing module pipeemreg
+INFO: [VRFC 10-311] analyzing module pipeid
+INFO: [VRFC 10-311] analyzing module pipeir
+INFO: [VRFC 10-311] analyzing module pipelinedcpu
+INFO: [VRFC 10-311] analyzing module pipemem
+INFO: [VRFC 10-311] analyzing module pipemwreg
+INFO: [VRFC 10-311] analyzing module pipepc
+INFO: [VRFC 10-311] analyzing module pipewb
+INFO: [VRFC 10-311] analyzing module regfile
+INFO: [VRFC 10-311] analyzing module glbl
