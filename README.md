@@ -1,5 +1,4 @@
-# pipeline stalls for Fast CPU
- 
+<h1 align="center">Pipeline stalls for Fast CPU</h1>
 
 ## Overview
 
